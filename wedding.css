@@ -1,0 +1,232 @@
+   *{
+	   box-sizing:border-box;
+   } 
+	
+	header{
+		background-color: grey;
+		text-align: center;
+		padding: 18px;
+	}
+	   
+	#header p,h1{
+		color:white;
+	}
+		
+	h2{
+		color:beige;
+		font-size: 60px;
+	}
+	
+	h3{
+		color:red;
+	}
+	
+	nav ul{
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+		background-color:lightgrey;
+		
+	}
+	
+	nav li{
+		float:left;
+		width:50%;
+	}
+	
+	nav a{
+		display:block;
+		color:white;
+		text-align:center;
+		padding: 14px 16px;
+		text-decoration:none;
+		
+	}
+	
+	nav a:hover{
+		background-color:black;
+		color:beige;
+	}
+	
+	.active{
+		background-color: black;
+		color:white;
+	}
+	
+	.form{
+		border-radius: 50px;
+		background: #e6cbb3;
+		padding: 20px;
+		width: 50%;
+		height: 30%;
+		margin: auto;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	
+	.form-control{
+		border-radius: 10px;
+		width: 100%;;
+	}
+	
+	.form-label{
+		padding: 5px;
+		margin-top: 20px;
+	}
+	
+	@media (max-width:800px){
+		.about{
+			flex-direction:column;
+		}
+	}
+	
+	#catering-grade-info, #cost-info {
+		border-radius: 25px;
+		background: lightgrey;
+		padding: 20px;
+		margin-left: 100px;
+		width: 80%;
+		height: 30%;
+	}
+	
+	#venue-results{
+		background: lightgrey;
+		padding: 50px;
+	}
+	
+	.venue-table{
+		border-collapse: collapse;
+		margin: 25px 0;
+		box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+		min-width: 400px;
+	}
+	
+	.venue-table thead tr {
+		background-color: #e6cbb3;
+		color: #ffffff;
+		text-align: left;
+	}
+
+	.venue-table th,
+	.venue-table td {
+		padding: 12px 15px;
+	}
+
+	.venue-table tbody tr {
+		border-bottom: 1px solid #dddddd;
+	}
+
+	.venue-table tbody tr:nth-of-type(even) {
+		background-color: #f3f3f3;
+	}
+
+	.venue-table tbody tr:last-of-type {
+		border-bottom: 2px solid #e6cbb3;
+	}
+	
+	.venue-table tbody tr.active-row {
+		font-weight: bold;
+		color: #e6cbb3;
+	}
+
+	.flexbox-container-info-cards{
+		display:flex;
+		flex-wrap:wrap;
+		justify-content: space-around;
+		align-items: center;
+		padding: 20px;
+	}
+	
+	#date-explanation-element{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-left: 60px;
+		padding-right: 60px;
+		text-align: center;
+	}
+	
+	#date-explanation-text{
+		font-size: 20px;
+	}
+	
+	.flexitem{
+		padding: 5px;
+	}
+	
+	.flexbox-container-inputs{
+		display:flex;
+		flex-wrap:wrap;
+		justify-content: space-around;
+		align-items: center;
+		padding: 10px;
+	}
+	
+	.flexbox-container-capacity-grade-inputs{
+		display:flex;
+		flex-wrap:wrap;
+		justify-content: space-around;
+		align-items: center;
+		padding: 10px;
+	}
+	
+	#submit-div-element{
+		margin: auto;
+		padding-top: 20px;
+		width: 120px;
+	}
+	
+	#submit-button{
+		margin: auto;
+		border: none;
+		width: 120px;
+		border-radius: 25px;
+	}
+	
+	#reset-input{
+		background: none;
+		border: none;
+		margin:auto;
+		text-decoration: underline;		
+	}
+	
+	.flexbox-container-results{
+		display:flex;
+		flex-wrap:wrap;
+		justify-content: space-around;
+		align-items: center;
+		padding: 10px;
+	}
+	
+	.flexbox{
+		width:400px;
+		margin:5px;
+		padding: 5px;
+	}
+	
+	.item1{
+		min-height:10px;
+		font-family:Sans-serif;
+		flex-grow:1;
+	}
+	
+	.item2{
+		min-height: 150px;
+		flex-shrink:0;
+		flex-grow:1;
+		padding-left: 20px;
+	}
+
+	footer{
+		border: grey;
+		padding: 15px;
+		text-align: center;
+		background: grey;
+		color: white;
+	}
+		
+	.contact-details {
+		display:inline;
+		padding:10px;
+		color: white;
+	}

@@ -1,0 +1,98 @@
+	*{
+	   box-sizing:border-box;
+   } 
+	
+	header{
+		background-color: grey;
+		text-align: center;
+		padding: 18px;
+	    }
+	   
+	#header p,h1{
+		color: white;
+	}
+	
+	nav ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: lightgrey;
+	}
+	
+	nav li{
+		float: left;
+		width: 50%;
+	}
+	
+	nav a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	
+	nav a:hover{
+		background-color: black;
+		color: beige;
+	}
+	
+	.active{
+		background-color: black;
+		color: white;
+	}
+	
+	h2{
+		padding: 20px;
+		font-size: 30px;
+	}
+	
+	#about-text{
+		padding: 20px;
+	}
+	
+	.container1{
+		display:flex;
+		flex-wrap:wrap;
+		justify-content: space-around;
+		align-items: center;
+	}
+	
+	.flexbox{
+		width:400px;
+		margin:5px;
+		padding: 5px;
+	}
+	
+	.image-container{
+		display: flex;
+		flex-wrap: wrap;
+		column-gap: 10px;
+		row-gap: 10px;
+	}
+	
+	.images{
+		width: 300px;
+		height: 300px;
+		object-fit: cover;
+	}
+	
+	@media (max-width:800px){
+		.about{
+			flex-direction: column;
+		}
+	}
+
+	footer{
+		border: grey;
+		padding: 15px;
+		text-align: center;
+		background: grey;
+		color: white;
+	}
+		
+	.contact-details {
+		display: inline;
+		padding: 10px;
+	}
