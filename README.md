@@ -3,7 +3,7 @@ During my first year at Loughborough University I was required to design and imp
 
 I achieved 85% for this coursework.
 
-This website application is a wedding venue finder website which conects to a mySQL database, where the databse stores data regarding different wedding venues.
+This website application is a wedding venue finder website which conects to a mySQL database, where the database stores data regarding different wedding venues.
 
 I have designed and programmed the website so that it has a user friendly and responsive design.
 
